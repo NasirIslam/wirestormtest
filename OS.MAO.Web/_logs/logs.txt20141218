@@ -1,0 +1,8 @@
+2014-12-18 01:56:50,354 [12] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:03:11,898 [16] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:04:32,189 [14] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:11:41,585 [23] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:11:55,533 [14] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:14:04,022 [26] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:14:49,211 [7] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called
+2014-12-18 02:16:48,796 [13] INFO  WireStorm.Web.Api.Controllers.ValuesController [(null)] - ValuesController get method called

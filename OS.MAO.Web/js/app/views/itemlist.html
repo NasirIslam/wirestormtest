@@ -1,0 +1,48 @@
+﻿
+    <div class="container container-pad" id="property-listings">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Items</h1>
+                <p>List of all items</p>
+                <a class="pull-left" href="#/additem">
+                    Add New Item
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6" ng-repeat="model in items">             
+                <div class="brdr bgc-fff pad-10 box-shad btm-mrg-20 property-listing">
+                    <div class="media">
+                        <a class="pull-left" href="#" target="_parent">
+                          
+                        </a>
+
+                        <div class="clearfix visible-sm"></div>
+
+                        <div class="media-body fnt-smaller">
+                            <a href="#" target="_parent"></a>
+
+                            <h4 class="media-heading">
+                                <a href="#" target="_parent">${{model.price}}<small class="pull-right">{{model.name}}</small></a>
+                            </h4>
+                            <p class="hidden-xs">
+                          {{model.description}}
+                                ...
+                            </p>
+                            <p>
+                                <a ng-href="#/itemdetail/{{model.id}}" >View more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End Listing-->
+             
+
+
+
+            </div>
+
+            <!-- End Col -->
+        </div><!-- End row -->
+    </div><!-- End container -->
