@@ -12,7 +12,7 @@ define(function (require) {
             $scope.item.description = $scope.description;
             $scope.item.price = $scope.price;
             alert($scope.item);
-            itemService.additem($scope.item);
+            itemService.addItem($scope.item);
             
         };
         function init() {

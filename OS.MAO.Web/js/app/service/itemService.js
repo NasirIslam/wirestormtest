@@ -5,7 +5,7 @@ define(function (require) {
     var injectParams = ["$http", "$rootScope"];
 
     var itemFactory = function ($http, $rootScope) {
-        var serviceBase = "api/items",
+        var serviceBase = "http://localhost:3794/api/items",
                  factory = {
                      Path: '/item'
 
@@ -18,8 +18,8 @@ define(function (require) {
         items.push({ id: 4, name: 'Samsung', description: 'Make Laptops and Desktop', price: 600 });
 
 
-        factory.addItem = function (account) {
-            return $http.post(serviceBase + "/addAccount", JSON.stringify(account), { headers: { 'Content-Type': 'application/json' } }).then(function (result) {
+        factory.addItem = function (item) {
+            return $http.post(serviceBase + "/addItem", JSON.stringify(item), { headers: { 'Content-Type': 'application/json' } }).then(function (result) {
                 var add = result.data.status;
             });
         };
